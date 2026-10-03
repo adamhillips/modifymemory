@@ -8,9 +8,6 @@
 
 namespace memory
 {
-    inline uintptr_t BaseId = 0;
-    inline uintptr_t clientbaseid = 0;
-
     template <typename T>
     __forceinline bool read(uintptr_t address, T& value)
     {
